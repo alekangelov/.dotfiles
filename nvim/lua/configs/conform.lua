@@ -18,7 +18,7 @@ local options = {
     sh = { "shfmt" },
     yaml = { "prettier" },
     markdown = { "prettier" },
-    toml = { "prettier" },
+    toml = { "taplo" },
     jsonc = { "prettier" },
   },
 
