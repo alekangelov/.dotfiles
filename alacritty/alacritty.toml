@@ -1,15 +1,13 @@
 [font]
 normal = { family = "FiraMono Nerd Font Mono" }
-size = 16 
+size = 18
 
 [window]
 opacity = 0.9
 padding.x = 0
 padding.y = 0
-dimensions.columns = 150 
-dimensions.lines = 50 
+dimensions.columns = 140
+dimensions.lines = 40
 
 [general]
-import  = [
-    "~/.config/alacritty/themes/themes/ayu_dark.toml"
-]
+import = ["~/.config/alacritty/themes/themes/ayu_dark.toml"]
