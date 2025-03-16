@@ -3,7 +3,7 @@ normal = { family = "FiraMono Nerd Font Mono" }
 size = 18
 
 [window]
-opacity = 0.9
+opacity = 0.75
 padding.x = 0
 padding.y = 0
 dimensions.columns = 140

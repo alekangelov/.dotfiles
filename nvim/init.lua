@@ -37,3 +37,6 @@ vim.schedule(function()
 end)
 
 require("base46").toggle_transparency()
+
+-- toggle relative line numbers
+vim.cmd [[set rnu]]

@@ -13,6 +13,7 @@ local servers = {
   -- "rust_analyzer",
   "bashls",
   -- "sqls",
+  "tailwindcss",
 }
 
 local nvlsp = require "nvchad.configs.lspconfig"
