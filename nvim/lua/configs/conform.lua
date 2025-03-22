@@ -1,25 +1,26 @@
 local options = {
   formatters_by_ft = {
     lua = { "stylua" },
-    typescript = { "prettier" },
-    typescriptreact = { "prettier" },
-    scss = { "prettier" },
-    sass = { "prettier" },
-    html = { "prettier" },
-    css = { "prettier" },
-    json = { "prettier" },
-    javascript = { "prettier" },
-    javascriptreact = { "prettier" },
+    typescript = { "biome" },
+    typescriptreact = { "biome" },
+    scss = { "biome" },
+    sass = { "biome" },
+    html = { "biome" },
+    css = { "biome" },
+    json = { "biome" },
+    javascript = { "biome" },
+    javascriptreact = { "biome" },
     -- rust
     rust = { "rustfmt" },
 
     go = { "gofmt", "goimports" },
     python = { "black" },
     sh = { "shfmt" },
-    yaml = { "prettier" },
-    markdown = { "prettier" },
+    yaml = { "biome" },
+    markdown = { "biome" },
     toml = { "taplo" },
-    jsonc = { "prettier" },
+    jsonc = { "biome" },
+    prisma = { "prisma" },
   },
 
   format_on_save = {

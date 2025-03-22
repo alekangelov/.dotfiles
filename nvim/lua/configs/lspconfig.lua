@@ -7,7 +7,7 @@ local lspconfig = require "lspconfig"
 local servers = {
   "html",
   "cssls",
-  "eslint",
+  -- "eslint",
   "tsserver",
   "taplo",
   -- "rust_analyzer",
